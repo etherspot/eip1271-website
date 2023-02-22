@@ -55,11 +55,11 @@ export default function Home() {
 												className="-rotate-[70deg]"
 												type={HeaderType.Header}
 											>
-												<div className="absolute w-full h-full -left-[15vh] rounded-[70px] pt-[7vh]">
+												<div className="absolute w-full h-full -left-[15vh] rounded-[50px] pt-[7vh]">
 													<Image
 														src={twitterPost}
 														alt=""
-														width={460}
+														width={350}
 														loading="eager"
 													/>
 												</div>
