@@ -1,5 +1,5 @@
 const REDIRECT = {
-	SHARE_WITH_FRIENDS: `https://twitter.com/intent/tweet?text=Together%2C%20let's%20help%20bring%20the%20world%20one%20step%20closer%20to%20a%20more%20open%20and%20accessible%20decentralized%20future.%20%23accountabstraction%20%23EIP1271&url=https%3A%2F%2Feip1271.io`,
+	SHARE_WITH_FRIENDS: `https://twitter.com/intent/tweet?text=Together%2C%20let's%20help%20bring%20the%20world%20one%20step%20closer%20to%20a%20more%20open%20and%20accessible%20decentralized%20future.%20%23accountabstraction%20%23EIP1271&url=https%3A%2F%2Feip1271.io%2F%23`,
 	ASK_TO_ADD: (twitterHandle: string) =>
 		`https://twitter.com/intent/tweet?text=Hey%20@${twitterHandle?.replace(
 			"https://twitter.com/",
