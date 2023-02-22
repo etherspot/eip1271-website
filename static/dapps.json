@@ -1,0 +1,506 @@
+[
+    {
+        "dappName": "Lido",
+        "dAppWebsite": "https://lido.fi/",
+        "twitterHandle": "https://twitter.com/LidoFinance",
+        "supportEIP1271": "No",
+        "favIcon": "lido.png"
+    },
+    {
+        "dappName": "Oasis.app",
+        "dAppWebsite": "https://oasis.app/",
+        "twitterHandle": "https://twitter.com/oasisdotapp",
+        "supportEIP1271": "No",
+        "favIcon": "oasis.ico"
+    },
+    {
+        "dappName": "Aave",
+        "dAppWebsite": "https://aave.com/",
+        "twitterHandle": "https://twitter.com/AaveAave",
+        "supportEIP1271": "Yes",
+        "favIcon": "aave.png"
+    },
+    {
+        "dappName": "Curve",
+        "dAppWebsite": "https://www.curve.fi/",
+        "twitterHandle": "https://twitter.com/CurveFinance",
+        "supportEIP1271": "No",
+        "favIcon": "curve.png"
+    },
+    {
+        "dappName": "Convex",
+        "dAppWebsite": "https://convexfinance.com",
+        "twitterHandle": "https://twitter.com/ConvexFinance",
+        "supportEIP1271": "Yes",
+        "favIcon": "convex.png"
+    },
+    {
+        "dappName": "Uniswap",
+        "dAppWebsite": "https://uniswap.org/",
+        "twitterHandle": "https://twitter.com/Uniswap",
+        "supportEIP1271": "Yes",
+        "favIcon": "uniswap.ico"
+    },
+    {
+        "dappName": "PancakeSwap",
+        "dAppWebsite": "https://pancakeswap.finance/",
+        "twitterHandle": "https://twitter.com/PancakeSwap",
+        "supportEIP1271": "Yes",
+        "favIcon": "pancakeswap.ico"
+    },
+    {
+        "dappName": "Instadapp",
+        "dAppWebsite": "https://instadapp.io/",
+        "twitterHandle": "https://twitter.com/Instadapp",
+        "supportEIP1271": "No",
+        "favIcon": "instadapp.ico"
+    },
+    {
+        "dappName": "Compound",
+        "dAppWebsite": "https://compound.finance/",
+        "twitterHandle": "https://twitter.com/compoundfinance",
+        "supportEIP1271": "Yes",
+        "favIcon": "compound.ico"
+    },
+    {
+        "dappName": "Balancer",
+        "dAppWebsite": "https://balancer.finance/",
+        "twitterHandle": "https://twitter.com/BalancerLabs",
+        "supportEIP1271": "Yes",
+        "favIcon": "balancer.svg"
+    },
+    {
+        "dappName": "Frax Finance",
+        "dAppWebsite": "https://frax.finance/",
+        "twitterHandle": "https://twitter.com/fraxfinance",
+        "supportEIP1271": "No",
+        "favIcon": "frax.ico"
+    },
+    {
+        "dappName": "Venus Protocol",
+        "dAppWebsite": "https://venus.io/",
+        "twitterHandle": "https://twitter.com/VenusProtocol",
+        "supportEIP1271": "Yes",
+        "favIcon": "venus.png"
+    },
+    {
+        "dappName": "SushiSwap",
+        "dAppWebsite": "https://sushiswap.org/",
+        "twitterHandle": "https://twitter.com/SushiSwap",
+        "supportEIP1271": "Yes",
+        "favIcon": "sushi.png"
+    },
+    {
+        "dappName": "Liquity",
+        "dAppWebsite": "https://liquity.fi/",
+        "twitterHandle": "https://twitter.com/Liquity_Finance",
+        "supportEIP1271": "Yes",
+        "favIcon": "liquiti.png"
+    },
+    {
+        "dappName": "Arrakis Finance",
+        "dAppWebsite": "https://arrakis.finance/",
+        "twitterHandle": "https://twitter.com/Arrakis_DAO",
+        "supportEIP1271": "No",
+        "favIcon": "arrakis.png"
+    },
+    {
+        "dappName": "Yearn Vaults",
+        "dAppWebsite": "https://yearn.finance/vaults",
+        "twitterHandle": "https://twitter.com/iearnfinance",
+        "supportEIP1271": "No",
+        "favIcon": "yearn.ico"
+    },
+    {
+        "dappName": "Synthetix",
+        "dAppWebsite": "https://synthetix.io/",
+        "twitterHandle": "https://twitter.com/synthetix_io",
+        "supportEIP1271": "No",
+        "favIcon": "synthetix.png"
+    },
+    {
+        "dappName": "dYdX",
+        "dAppWebsite": "https://dydx.exchange/",
+        "twitterHandle": "https://twitter.com/dydxprotocol",
+        "supportEIP1271": "No",
+        "favIcon": "dydx.png"
+    },
+    {
+        "dappName": "Alpaca Finance",
+        "dAppWebsite": "https://alpaca.finance/",
+        "twitterHandle": "https://twitter.com/AlpacaFinance",
+        "supportEIP1271": "Yes",
+        "favIcon": "alpaca.png"
+    },
+    {
+        "dappName": "QuickSwap",
+        "dAppWebsite": "https://quickswap.exchange/",
+        "twitterHandle": "https://twitter.com/QuickSwap_",
+        "supportEIP1271": "Yes",
+        "favIcon": "quickswap.png"
+    },
+    {
+        "dappName": "GainsNetwork",
+        "dAppWebsite": "https://gainsnetwork.io/",
+        "twitterHandle": "https://twitter.com/gainsnetwork",
+        "supportEIP1271": "Yes",
+        "favIcon": "gains.png"
+    },
+    {
+        "dappName": "DfynNetwork",
+        "dAppWebsite": "https://dfyn.network/",
+        "twitterHandle": "https://twitter.com/dfyn_network",
+        "supportEIP1271": "No",
+        "favIcon": "dfyn.png"
+    },
+    {
+        "dappName": "Hashflow",
+        "dAppWebsite": "https://hashflow.com/",
+        "twitterHandle": "https://twitter.com/hashflow_io",
+        "supportEIP1271": "No",
+        "favIcon": "hashflow.png"
+    },
+    {
+        "dappName": "Kyberswap",
+        "dAppWebsite": "https://kyberswap.com/",
+        "twitterHandle": "https://twitter.com/KyberSwap",
+        "supportEIP1271": "No",
+        "favIcon": "kyberswap.ico"
+    },
+    {
+        "dappName": "Gravity Finance",
+        "dAppWebsite": "https://gravityfinance.io",
+        "twitterHandle": "https://twitter.com/GravityFinance",
+        "supportEIP1271": "Yes",
+        "favIcon": "gravity.png"
+    },
+    {
+        "dappName": "Link3",
+        "dAppWebsite": "https://link3.to/",
+        "twitterHandle": "https://twitter.com/link3to",
+        "supportEIP1271": "Yes",
+        "favIcon": "link3.png"
+    },
+    {
+        "dappName": "Crew3",
+        "dAppWebsite": "https://crew3.xyz/",
+        "twitterHandle": "https://twitter.com/crew3xyz",
+        "supportEIP1271": "No",
+        "favIcon": "crew3.png"
+    },
+    {
+        "dappName": "Stargate",
+        "dAppWebsite": "https://stargate.finance/",
+        "twitterHandle": "https://twitter.com/StargateFinance",
+        "supportEIP1271": "Yes",
+        "favIcon": "stargate.png"
+    },
+    {
+        "dappName": "Beefy",
+        "dAppWebsite": "https://beefy.finance/",
+        "twitterHandle": "https://twitter.com/beefyfinance",
+        "supportEIP1271": "Yes",
+        "favIcon": "beefy.png"
+    },
+    {
+        "dappName": "Euler",
+        "dAppWebsite": "https://euler.finance",
+        "twitterHandle": "https://twitter.com/eulerfinance",
+        "supportEIP1271": "Yes",
+        "favIcon": "euler.png"
+    },
+    {
+        "dappName": "BiSwap",
+        "dAppWebsite": "https://biswap.finance/",
+        "twitterHandle": "https://twitter.com/Biswap_Dex",
+        "supportEIP1271": "Yes",
+        "favIcon": "biswap.ico"
+    },
+    {
+        "dappName": "MorphoLabs",
+        "dAppWebsite": "https://morpholabs.com/",
+        "twitterHandle": "https://twitter.com/MorphoLabs",
+        "supportEIP1271": "Yes",
+        "favIcon": "morpholabs.png"
+    },
+    {
+        "dappName": "Unicrypt",
+        "dAppWebsite": "https://unicrypt.network/",
+        "twitterHandle": "https://twitter.com/UNCX_token",
+        "supportEIP1271": "No",
+        "favIcon": "unicrypt.png"
+    },
+    {
+        "dappName": "Abracadabra",
+        "dAppWebsite": "https://abracadabra.money/",
+        "twitterHandle": "https://twitter.com/MIM_Spell",
+        "supportEIP1271": "Yes",
+        "favIcon": "abracadabra.ico"
+    },
+    {
+        "dappName": "Nexus Mutual",
+        "dAppWebsite": "https://nexusmutual.io/",
+        "twitterHandle": "https://twitter.com/NexusMutual",
+        "supportEIP1271": "No",
+        "favIcon": "nexus.png"
+    },
+    {
+        "dappName": "CoinWind",
+        "dAppWebsite": "https://coinwind.com/",
+        "twitterHandle": "https://twitter.com/coinwind_com",
+        "supportEIP1271": "Yes",
+        "favIcon": "coinwind.ico"
+    },
+    {
+        "dappName": "PinkSale",
+        "dAppWebsite": "https://pinksale.finance/",
+        "twitterHandle": "https://twitter.com/pinkecosystem",
+        "supportEIP1271": "",
+        "favIcon": "pinksale.png"
+    },
+    {
+        "dappName": "Synapse",
+        "dAppWebsite": "https://synapsefi.com",
+        "twitterHandle": "https://twitter.com/SynapseProtocol",
+        "supportEIP1271": "Yes",
+        "favIcon": "synapse.png"
+    },
+    {
+        "dappName": "Keep3r Network",
+        "dAppWebsite": "https://keep3r.network/",
+        "twitterHandle": "https://twitter.com/thekeep3r",
+        "supportEIP1271": "Yes",
+        "favIcon": "keep3r.png"
+    },
+    {
+        "dappName": "Ankr",
+        "dAppWebsite": "https://ankr.com/",
+        "twitterHandle": "https://twitter.com/ankr",
+        "supportEIP1271": "Yes",
+        "favIcon": "ankr.png"
+    },
+    {
+        "dappName": "Stader Labs",
+        "dAppWebsite": "https://staderlabs.com/",
+        "twitterHandle": "https://twitter.com/staderlabs",
+        "supportEIP1271": "Yes",
+        "favIcon": "staderlabs.ico"
+    },
+    {
+        "dappName": "StakeWise",
+        "dAppWebsite": "https://stakewise.io/",
+        "twitterHandle": "https://twitter.com/stakewise_io",
+        "supportEIP1271": "Yes",
+        "favIcon": "stakewise.ico"
+    },
+    {
+        "dappName": "Gearbox",
+        "dAppWebsite": "https://gearbox.finance/",
+        "twitterHandle": "https://twitter.com/GearboxProtocol",
+        "supportEIP1271": "No",
+        "favIcon": "gearbox.ico"
+    },
+    {
+        "dappName": "Loopring",
+        "dAppWebsite": "https://loopring.org/",
+        "twitterHandle": "https://twitter.com/loopringorg",
+        "supportEIP1271": "No",
+        "favIcon": "loopring.png"
+    },
+    {
+        "dappName": "Bancor",
+        "dAppWebsite": "https://bancor.network/",
+        "twitterHandle": "https://twitter.com/Bancor",
+        "supportEIP1271": "Yes",
+        "favIcon": "bancor.png"
+    },
+    {
+        "dappName": "Homora V2",
+        "dAppWebsite": "https://homora-v2.alphaventuredao.io/",
+        "twitterHandle": "https://twitter.com/Alpha_HomoraV2",
+        "supportEIP1271": "No ",
+        "favIcon": "homora.png"
+    },
+    {
+        "dappName": "Wombat Exchange",
+        "dAppWebsite": "https://wombat.exchange/",
+        "twitterHandle": "https://twitter.com/WombatExchange",
+        "supportEIP1271": "Yes",
+        "favIcon": "wombat.png"
+    },
+    {
+        "dappName": "Set Protocol",
+        "dAppWebsite": "https://www.tokensets.com/",
+        "twitterHandle": "https://twitter.com/SetProtocol",
+        "supportEIP1271": "Yes",
+        "favIcon": "setprotocol.png"
+    },
+    {
+        "dappName": "IdleFinance",
+        "dAppWebsite": "https://idle.finance/",
+        "twitterHandle": "https://twitter.com/idlefinance",
+        "supportEIP1271": "Yes",
+        "favIcon": "idlefinance.png"
+    },
+    {
+        "dappName": "IndexCoop",
+        "dAppWebsite": "https://indexcoop.com/",
+        "twitterHandle": "https://twitter.com/indexcoop",
+        "supportEIP1271": "Yes",
+        "favIcon": "indexcoop.png"
+    },
+    {
+        "dappName": "StakeDAO",
+        "dAppWebsite": "https://stakedao.org/",
+        "twitterHandle": "https://twitter.com/StakeDAOHQ",
+        "supportEIP1271": "Yes",
+        "favIcon": "stakedao.png"
+    },
+    {
+        "dappName": "MDEX",
+        "dAppWebsite": "https://mdex.com/",
+        "twitterHandle": "https://twitter.com/Mdextech",
+        "supportEIP1271": "",
+        "favIcon": "mdex.png"
+    },
+    {
+        "dappName": "BonqDAO",
+        "dAppWebsite": "https://bonqdao.com/",
+        "twitterHandle": "https://twitter.com/BonqDAO",
+        "supportEIP1271": "No",
+        "favIcon": "bonq.png"
+    },
+    {
+        "dappName": "Aavegotchi",
+        "dAppWebsite": "https://www.aavegotchi.com/",
+        "twitterHandle": "https://twitter.com/aavegotchi",
+        "supportEIP1271": "Yes",
+        "favIcon": "aavegotchi.jpg"
+    },
+    {
+        "dappName": "Metavault DAO",
+        "dAppWebsite": "https://metavault.org/",
+        "twitterHandle": "https://twitter.com/MetavaultDAO",
+        "supportEIP1271": "No",
+        "favIcon": "metavault.png"
+    },
+    {
+        "dappName": "MM FInance",
+        "dAppWebsite": "https://polymm.finance/",
+        "twitterHandle": "https://twitter.com/MMFcrypto",
+        "supportEIP1271": "No",
+        "favIcon": "polymm.ico"
+    },
+    {
+        "dappName": "Ovix",
+        "dAppWebsite": "https://www.0vix.com/",
+        "twitterHandle": "https://twitter.com/0vixProtocol",
+        "supportEIP1271": "Yes",
+        "favIcon": "ovix.png"
+    },
+    {
+        "dappName": "Gamma",
+        "dAppWebsite": "https://www.gamma.xyz/",
+        "twitterHandle": "https://twitter.com/GammaStrategies",
+        "supportEIP1271": "Yes",
+        "favIcon": "gamma.png"
+    },
+    {
+        "dappName": "mStable CDP",
+        "dAppWebsite": "https://mstable.org/",
+        "twitterHandle": "https://twitter.com/mstable_",
+        "supportEIP1271": "Yes",
+        "favIcon": "mstable.svg"
+    },
+    {
+        "dappName": "Idex",
+        "dAppWebsite": "https://idex.io/",
+        "twitterHandle": "https://twitter.com/idexio",
+        "supportEIP1271": "Yes",
+        "favIcon": "idex.ico"
+    },
+    {
+        "dappName": "Autofarm",
+        "dAppWebsite": "https://autofarm.network/",
+        "twitterHandle": "https://twitter.com/autofarmnetwork",
+        "supportEIP1271": "Yes",
+        "favIcon": "autofarm.png"
+    },
+    {
+        "dappName": "Hop protocol ",
+        "dAppWebsite": "https://hop.exchange/",
+        "twitterHandle": "https://twitter.com/HopProtocol",
+        "supportEIP1271": "Yes",
+        "favIcon": "hop.ico"
+    },
+    {
+        "dappName": "Polymarket",
+        "dAppWebsite": "https://polymarket.com/",
+        "twitterHandle": "https://twitter.com/PolymarketHQ",
+        "supportEIP1271": "No",
+        "favIcon": "polymarket.png"
+    },
+    {
+        "dappName": "Pool together",
+        "dAppWebsite": "https://pooltogether.com/",
+        "twitterHandle": "https://twitter.com/PoolTogether_",
+        "supportEIP1271": "Yes",
+        "favIcon": "pooltogether.png"
+    },
+    {
+        "dappName": "Wombex Finance",
+        "dAppWebsite": "https://wombex.finance/#/bnb/",
+        "twitterHandle": "https://twitter.com/WombexFinance",
+        "supportEIP1271": "No",
+        "favIcon": "wombex.png"
+    },
+    {
+        "dappName": "Gains Network",
+        "dAppWebsite": "https://gainsnetwork.io/",
+        "twitterHandle": "https://twitter.com/GainsNetwork_io",
+        "supportEIP1271": "",
+        "favIcon": "gainsnetwork.png"
+    },
+    {
+        "dappName": "CreamFinance",
+        "dAppWebsite": "https://app.cream.finance/",
+        "twitterHandle": "https://twitter.com/CreamdotFinance",
+        "supportEIP1271": "Yes",
+        "favIcon": "creamfinance.ico"
+    },
+    {
+        "dappName": "Angle Protocol",
+        "dAppWebsite": "https://app.angle.money/#/",
+        "twitterHandle": "https://twitter.com/AngleProtocol",
+        "supportEIP1271": "Yes",
+        "favIcon": "anglemoney.png"
+    },
+    {
+        "dappName": "Tokemak",
+        "dAppWebsite": "https://app.tokemak.xyz/",
+        "twitterHandle": "https://twitter.com/TokenReactor",
+        "supportEIP1271": "Yes",
+        "favIcon": "tokemak.svg"
+    },
+    {
+        "dappName": "DODO ",
+        "dAppWebsite": "https://dodoex.io/",
+        "twitterHandle": "https://twitter.com/BreederDodo",
+        "supportEIP1271": "Yes",
+        "favIcon": "dadoex.ico"
+    },
+    {
+        "dappName": "BabyDogeSwap",
+        "dAppWebsite": "https://babydogeswap.com/",
+        "twitterHandle": "https://twitter.com/BabyDogeCoin",
+        "supportEIP1271": "Yes",
+        "favIcon": "babydoge.png"
+    },
+    {
+        "dappName": "Sandbox",
+        "dAppWebsite": "https://www.sandbox.game",
+        "twitterHandle": "https://twitter.com/thesandboxgame",
+        "supportEIP1271": "No",
+        "favIcon": "sandbox.png"
+    }
+]
