@@ -11,6 +11,7 @@ const REDIRECT = {
 	ASK_ON_DISCORD: "https://discord.etherspot.io/",
 	ETHERSPOT_EIP1271_MODULE: "https://github.com/etherspot/eip1271-verification-util/",
 	SIGNATURE_VALIDATOR: "https://github.com/AmbireTech/signature-validator/",
+	VITALIK_TWEET: "https://twitter.com/VitalikButerin/status/1576267880542633984",
 };
 
 export default REDIRECT;

@@ -2,7 +2,7 @@
 
 As part of the ongoing effort to improve dApps UX, EIP1271-website (eip1271.io) is a platform for developers and users to find, explore, and interact with dApps that support EIP1271. 
 
-Powered by [Etherspot](https://etherspot.io])
+Powered by [Etherspot](https://etherspot.io)
 
 ## Contribution
 

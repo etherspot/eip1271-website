@@ -17,7 +17,7 @@
         "dappName": "Aave",
         "dAppWebsite": "https://aave.com/",
         "twitterHandle": "https://twitter.com/AaveAave",
-        "supportEIP1271": "Yes",
+        "supportEIP1271": "No",
         "favIcon": "aave.png"
     },
     {
@@ -502,5 +502,12 @@
         "twitterHandle": "https://twitter.com/thesandboxgame",
         "supportEIP1271": "No",
         "favIcon": "sandbox.png"
+    },
+    {
+        "dappName": "Blur",
+        "dAppWebsite": "https://blur.io",
+        "twitterHandle": "https://twitter.com/blur_io",
+        "supportEIP1271": "No",
+        "favIcon": "blur.png"
     }
 ]

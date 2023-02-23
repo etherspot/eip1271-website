@@ -55,11 +55,13 @@ export default function Home() {
 												className="-rotate-[70deg]"
 												type={HeaderType.Header}
 											>
-												<div className="absolute w-full h-full -left-[15vh] rounded-[70px] pt-[7vh]">
+												<div className="absolute w-full h-full -left-[16vh] rounded-[45px] pt-[7vh]">
 													<Image
+														className="cursor-pointer"
+														onClick={() => openURL(REDIRECT.VITALIK_TWEET)}
 														src={twitterPost}
 														alt=""
-														width={460}
+														width={330}
 														loading="eager"
 													/>
 												</div>
