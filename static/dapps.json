@@ -17,7 +17,7 @@
         "dappName": "Aave",
         "dAppWebsite": "https://aave.com/",
         "twitterHandle": "https://twitter.com/AaveAave",
-        "supportEIP1271": "No",
+        "supportEIP1271": "Yes",
         "favIcon": "aave.png"
     },
     {
@@ -108,7 +108,7 @@
         "dappName": "Yearn Vaults",
         "dAppWebsite": "https://yearn.finance/vaults",
         "twitterHandle": "https://twitter.com/iearnfinance",
-        "supportEIP1271": "No",
+        "supportEIP1271": "Yes",
         "favIcon": "yearn.ico"
     },
     {
@@ -509,5 +509,13 @@
         "twitterHandle": "https://twitter.com/blur_io",
         "supportEIP1271": "No",
         "favIcon": "blur.png"
+    },
+    {
+        "dappName": "Lens",
+        
+        "dAppWebsite": "https://lens.xyz",
+        "twitterHandle": "https://twitter.com/lensprotocol",
+        "supportEIP1271": "Yes",
+        "favIcon": "lens.png"
     }
 ]
