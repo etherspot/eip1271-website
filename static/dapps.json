@@ -185,7 +185,7 @@
         "dappName": "Crew3",
         "dAppWebsite": "https://crew3.xyz/",
         "twitterHandle": "https://twitter.com/crew3xyz",
-        "supportEIP1271": "No",
+        "supportEIP1271": "Yes",
         "favIcon": "crew3.png"
     },
     {
