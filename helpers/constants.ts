@@ -12,6 +12,7 @@ const REDIRECT = {
 	ETHERSPOT_EIP1271_MODULE: "https://github.com/etherspot/eip1271-verification-util/",
 	SIGNATURE_VALIDATOR: "https://github.com/AmbireTech/signature-validator/",
 	VITALIK_TWEET: "https://twitter.com/VitalikButerin/status/1576267880542633984",
+	EIP1271_UTIL: "https://docs.sequence.xyz/wallet/guides/sign-message/#verifying-message-signatures",
 };
 
 export default REDIRECT;

@@ -337,6 +337,11 @@ export default function Home() {
 					
 						<a className="font-bold"> npm install </a> <a className="cursor-pointer font-bold" onClick={() => openURL(REDIRECT.SIGNATURE_VALIDATOR)}>@ambire/signature-validator </a>
 						<br />
+						or
+						<br />
+					
+						<a className="cursor-pointer font-bold" onClick={() => openURL(REDIRECT.EIP1271_UTIL)}>Sequence&apos;s EIP1271 util </a>
+						<br />
 						<br />
 						You can find example code in <a className="cursor-pointer font-bold" onClick={() => openURL(REDIRECT.ETHERSPOT_EIP1271_MODULE)}>this repo</a> 
 						<br />
