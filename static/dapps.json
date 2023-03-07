@@ -530,5 +530,12 @@
         "twitterHandle": "https://twitter.com/mtpelerin",
         "supportEIP1271": "Yes",
         "favIcon": "mtpelerin.png"
+    },
+     {
+        "dappName": "ZeroSwap",
+        "dAppWebsite": "https://app.zeroswap.io",
+        "twitterHandle": "https://twitter.com/ZeroSwapLabs",
+        "supportEIP1271": "No",
+        "favIcon": "zeroswap.png"
     }
 ]
