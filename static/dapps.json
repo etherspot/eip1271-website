@@ -531,11 +531,18 @@
         "supportEIP1271": "Yes",
         "favIcon": "mtpelerin.png"
     },
-     {
+    {
         "dappName": "ZeroSwap",
         "dAppWebsite": "https://app.zeroswap.io",
         "twitterHandle": "https://twitter.com/ZeroSwapLabs",
         "supportEIP1271": "No",
         "favIcon": "zeroswap.png"
+    },
+    {
+        "dappName": "LooksRare",
+        "dAppWebsite": "https://looksrare.org/",
+        "twitterHandle": "https://twitter.com/looksrare",
+        "supportEIP1271": "No",
+        "favIcon": "looksrare.jpg"
     }
 ]
