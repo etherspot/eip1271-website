@@ -544,5 +544,12 @@
         "twitterHandle": "https://twitter.com/looksrare",
         "supportEIP1271": "No",
         "favIcon": "looksrare.jpg"
+    },
+{
+        "dappName": "Push Protocol",
+        "dAppWebsite": "https://push.org/",
+        "twitterHandle": "https://twitter.com/pushprotocol",
+        "supportEIP1271": "Yes",
+        "favIcon": "pushprotocol.png"
     }
 ]
