@@ -545,11 +545,18 @@
         "supportEIP1271": "No",
         "favIcon": "looksrare.jpg"
     },
-{
+    {
         "dappName": "Push Protocol",
         "dAppWebsite": "https://push.org/",
         "twitterHandle": "https://twitter.com/pushprotocol",
         "supportEIP1271": "Yes",
         "favIcon": "pushprotocol.png"
+    },
+     {
+        "dappName": "Cow Protocol",
+        "dAppWebsite": "https://cow.fi/",
+        "twitterHandle": "https://twitter.com/CoWSwap",
+        "supportEIP1271": "Yes",
+        "favIcon": "cowswap.png"
     }
 ]
