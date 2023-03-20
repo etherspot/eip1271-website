@@ -185,7 +185,7 @@
         "dappName": "Crew3",
         "dAppWebsite": "https://crew3.xyz/",
         "twitterHandle": "https://twitter.com/crew3xyz",
-        "supportEIP1271": "No",
+        "supportEIP1271": "Yes",
         "favIcon": "crew3.png"
     },
     {
@@ -517,5 +517,54 @@
         "twitterHandle": "https://twitter.com/lensprotocol",
         "supportEIP1271": "Yes",
         "favIcon": "lens.png"
+    },
+    {
+        "dappName": "Snapshot",
+        "dAppWebsite": "https://snapshot.org",
+        "twitterHandle": "https://twitter.com/SnapshotLabs",
+        "supportEIP1271": "Yes",
+        "favIcon": "snapshot.png"
+    },
+    {
+        "dappName": "Paxos",
+        "dAppWebsite": "https://paxos.com/",
+        "twitterHandle": "https://twitter.com/paxosglobal",
+        "supportEIP1271": "Yes",
+        "favIcon": "paxos.png"
+    },
+    {
+        "dappName": "Mt Pelerin",
+        "dAppWebsite": "https://www.mtpelerin.com/",
+        "twitterHandle": "https://twitter.com/mtpelerin",
+        "supportEIP1271": "Yes",
+        "favIcon": "mtpelerin.png"
+    },
+    {
+        "dappName": "ZeroSwap",
+        "dAppWebsite": "https://app.zeroswap.io",
+        "twitterHandle": "https://twitter.com/ZeroSwapLabs",
+        "supportEIP1271": "No",
+        "favIcon": "zeroswap.png"
+    },
+    {
+        "dappName": "LooksRare",
+        "dAppWebsite": "https://looksrare.org/",
+        "twitterHandle": "https://twitter.com/looksrare",
+        "supportEIP1271": "No",
+        "favIcon": "looksrare.jpg"
+    },
+    {
+        "dappName": "Push Protocol",
+        "dAppWebsite": "https://push.org/",
+        "twitterHandle": "https://twitter.com/pushprotocol",
+        "supportEIP1271": "Yes",
+        "favIcon": "pushprotocol.png"
+    },
+    {
+        "dappName": "Cow Protocol",
+        "dAppWebsite": "https://cow.fi/",
+        "twitterHandle": "https://twitter.com/CoWSwap",
+        "supportEIP1271": "Yes",
+        "favIcon": "cowswap.png"
     }
 ]
