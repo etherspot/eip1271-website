@@ -17,7 +17,7 @@
         "dappName": "Aave",
         "dAppWebsite": "https://aave.com/",
         "twitterHandle": "https://twitter.com/AaveAave",
-        "supportEIP1271": "No",
+        "supportEIP1271": "Yes",
         "favIcon": "aave.png"
     },
     {
@@ -108,7 +108,7 @@
         "dappName": "Yearn Vaults",
         "dAppWebsite": "https://yearn.finance/vaults",
         "twitterHandle": "https://twitter.com/iearnfinance",
-        "supportEIP1271": "No",
+        "supportEIP1271": "Yes",
         "favIcon": "yearn.ico"
     },
     {
@@ -511,6 +511,13 @@
         "favIcon": "blur.png"
     },
     {
+        "dappName": "Lens",
+        "dAppWebsite": "https://lens.xyz",
+        "twitterHandle": "https://twitter.com/lensprotocol",
+        "supportEIP1271": "Yes",
+        "favIcon": "lens.png"
+    },
+    {
         "dappName": "Snapshot",
         "dAppWebsite": "https://snapshot.org",
         "twitterHandle": "https://twitter.com/SnapshotLabs",
@@ -544,5 +551,19 @@
         "twitterHandle": "https://twitter.com/looksrare",
         "supportEIP1271": "No",
         "favIcon": "looksrare.jpg"
+    },
+    {
+        "dappName": "Push Protocol",
+        "dAppWebsite": "https://push.org/",
+        "twitterHandle": "https://twitter.com/pushprotocol",
+        "supportEIP1271": "Yes",
+        "favIcon": "pushprotocol.png"
+    },
+    {
+        "dappName": "Cow Protocol",
+        "dAppWebsite": "https://cow.fi/",
+        "twitterHandle": "https://twitter.com/CoWSwap",
+        "supportEIP1271": "Yes",
+        "favIcon": "cowswap.png"
     }
 ]
