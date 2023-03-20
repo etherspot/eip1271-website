@@ -512,7 +512,6 @@
     },
     {
         "dappName": "Lens",
-        
         "dAppWebsite": "https://lens.xyz",
         "twitterHandle": "https://twitter.com/lensprotocol",
         "supportEIP1271": "Yes",
