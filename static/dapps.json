@@ -565,5 +565,12 @@
         "twitterHandle": "https://twitter.com/CoWSwap",
         "supportEIP1271": "Yes",
         "favIcon": "cowswap.png"
+    },
+    {
+        "dappName": "Fetcch",
+        "dAppWebsite": "https://fetcch.xyz/",
+        "twitterHandle": "https://twitter.com/FetcchX",
+        "supportEIP1271": "Yes",
+        "favIcon": "fetcch.ico"
     }
 ]
