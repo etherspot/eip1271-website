@@ -565,5 +565,19 @@
         "twitterHandle": "https://twitter.com/CoWSwap",
         "supportEIP1271": "Yes",
         "favIcon": "cowswap.png"
+    },
+    {
+        "dappName": "Fetcch",
+        "dAppWebsite": "https://fetcch.xyz/",
+        "twitterHandle": "https://twitter.com/FetcchX",
+        "supportEIP1271": "Yes",
+        "favIcon": "fetcch.ico"
+    },
+    {
+        "dappName": "Polygon Bridge",
+        "dAppWebsite": "https://wallet.polygon.technology/",
+        "twitterHandle": "https://twitter.com/0xPolygonLabs",
+        "supportEIP1271": "No",
+        "favIcon": "polygon.ico"
     }
 ]
