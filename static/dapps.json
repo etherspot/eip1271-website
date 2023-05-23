@@ -3,7 +3,7 @@
         "dappName": "Lido",
         "dAppWebsite": "https://lido.fi/",
         "twitterHandle": "https://twitter.com/LidoFinance",
-        "supportEIP1271": "No",
+        "supportEIP1271": "Yes",
         "favIcon": "lido.png"
     },
     {
