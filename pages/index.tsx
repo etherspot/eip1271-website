@@ -33,18 +33,17 @@ export default function Home() {
               </p>
               <details className="font-regular text-5xl my-2 text-white">
                 <summary
-                  className="mt-9 mb-0.5 h-[50px] w-4/5 rounded-full px-1 py-3 text-white md:w-2/4 text-center cursor-pointer"
+                  className="mt-9 mb-0.5 h-[50px] w-4/5 cursor-pointer rounded-full px-1 py-3 text-center text-white md:w-2/4"
                   style={{
                     background:
                       "linear-gradient(104.87deg, #FEDBB5 9.26%, #FD7F90 41.01%, #FD2D40 85.87%)",
-                   
                   }}
                 >
                   Why?
                 </summary>
-                <p className="mx-1 my-2 px-1 py-0.5 font-regular text-lg text-left text-white outline rounded-lg">
-                  Currently, EOA wallets can sign messages, but smart contracts
-                  cannot directly sign messages. With the rise of smart contract
+                <p className="font-regular text-lg mx-1 my-2 rounded-lg px-1 py-0.5 text-left text-white outline">
+                  EOA wallets can sign messages, but smart contracts cannot
+                  directly sign messages. With the rise of smart contract
                   wallets and DAOs controlled by multi-sig smart contracts, we
                   should integrate EIP-1271 in order to add message signing to
                   smart contracts.
