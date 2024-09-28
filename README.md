@@ -1,6 +1,6 @@
 # eip1271-website
 
-As part of the ongoing effort to improve dApps UX, EIP1271-website (eip1271.io) is a platform for developers and users to find, explore, and interact with dApps that support EIP1271. 
+As part of the ongoing effort to improve dApps UX, EIP1271-website (eip1271.io) is a platform for developers and users to find, explore, and interact with dApps that support EIP1271.
 
 Powered by [Etherspot](https://etherspot.io)
 
@@ -17,6 +17,7 @@ Powered by [Etherspot](https://etherspot.io)
 - [Soul Wallet](https://www.soulwallet.io/)
 - [Stackup](https://www.stackup.sh/)
 - [Unipass](https://wallet.unipass.id/)
+- [Clave](https://getclave.io/)
 
  Or checkout other wallets from Alchemy's dApp Store smart wallets list [here](https://www.alchemy.com/best/smart-contract-wallets)
 
@@ -25,7 +26,7 @@ Everyone is welcome to submit PRs to add/remove dApps in `static/dapps.json` fol
 To run the project locally:
 
  `npm install`
- `npm run dev` 
+ `npm run dev`
 
 
 ## License
