@@ -575,9 +575,9 @@
     },
     {
         "dappName": "Polygon Bridge",
-        "dAppWebsite": "https://wallet.polygon.technology/",
+        "dAppWebsite": "https://portal.polygon.technology/assets",
         "twitterHandle": "https://twitter.com/0xPolygonLabs",
-        "supportEIP1271": "No",
+        "supportEIP1271": "Yes",
         "favIcon": "polygon.ico"
     }
 ]
