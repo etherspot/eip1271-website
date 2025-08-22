@@ -27,7 +27,7 @@ module.exports = {
 			footertitle: "15px",
 			footersubtitle: "14px",
 			icon: "20px",
-			headertitle: "4.5rem",
+			headertitle: "3rem",
 		},
 		extend: {
 			colors: {
