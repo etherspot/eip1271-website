@@ -26,9 +26,9 @@ export default function Home() {
 					<div className="absolute bg-[url('../public/VectorBottom.png')] w-screen h-screen right-0 bg-cover opacity-50 top-0" />
 					<div className="flex w-full h-full flex-col-reverse  md:flex-row justify-center items-center ">
 						<div className="flex flex-col w-full h-full sm:h-2/4 justify-between px-[3vh] md:pl-[12vh] md:pr-0 max-w-3xl z-10">
-							<p className="text-10xl sm:text-title md:text-headertitle text-white leading-tight mb-4 font-bold">
+							<h1 className="text-10xl sm:text-title md:text-headertitle text-white leading-tight mb-4 font-bold">
 								Signature Validation for Smart Accounts
-							</p>
+							</h1>
 							<p className="text-4xl text-white font-regular">
 								EIP-1271 and it&apos;s extension EIP-6492 enable signature validation across all types of accounts.
 							</p>
@@ -326,7 +326,7 @@ export default function Home() {
 						<TopLeftRounded className="justify-center" />
 					</div>
 					<div className="flex flex-col justify-center align-center h-full">
-						<p className="text-title text-white	font-bold">How to implement EIP-1271?</p>
+						<h2 className="text-title text-white	font-bold">How to implement EIP-1271?</h2>
 						<p className="text-lg text-white leading-9 py-4">						<br />
 						There are npm packages that makes it easy for a dApps to add support for EIP 1271
 						<br />
@@ -353,7 +353,7 @@ export default function Home() {
 
 				<div className="flex flex-col w-full items-center h-full animate-[slide-down-fade_0.5s_ease-in-out] md:grid-cols-2 items-start px-[2rem] sm:px-[4rem] md:px-[6rem] z-10">
 					<div className="flex flex-col justify-center  h-full">
-						<p className="text-title text-white font-bold">FAQ</p>
+						<h2 className="text-title text-white font-bold">FAQ</h2>
 					</div>
 					<div className="w-full h-full py-12 z-10">
 						<FAQ />
@@ -365,9 +365,9 @@ export default function Home() {
 					</div>
 					<div className="flex flex-col justify-center items-center h-full">
 						<div className="flex flex-col justify-between h-3/5">
-							<p className="text-title text-white	font-bold">
+							<h2 className="text-title text-white	font-bold">
 								Have a Question ?
-							</p>
+							</h2>
 							{/* rome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 							<p
 								className="text-lg text-white underline cursor-pointer"
