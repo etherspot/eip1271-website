@@ -24,12 +24,12 @@ export default function Home() {
 					<div className="absolute bg-[url('../public/VectorTop.png')] w-screen h-screen bg-cover opacity-50 top-0" />
 					<div className="absolute bg-[url('../public/VectorBottom.png')] w-screen h-screen right-0 bg-cover opacity-50 top-0" />
 					<div className="flex w-full h-full flex-col-reverse  md:flex-row justify-center items-center ">
-						<div className="flex flex-col w-full h-full sm:h-2/4 justify-between px-[3vh] md:px-[12vh] z-10">
-							<p className="text-10xl sm:text-title md:text-headertitle lg:text-headertitle text-white font-bold">
-								EIP-1271
+						<div className="flex flex-col w-full h-full sm:h-2/4 justify-between px-[3vh] md:pl-[12vh] md:pr-0 max-w-3xl z-10">
+							<p className="text-10xl sm:text-title md:text-headertitle text-white leading-tight mb-4 font-bold">
+								Signature Validation for Smart Accounts
 							</p>
-							<p className="text-7xl text-white font-regular">
-								Standard Signature Validation <br /> Procedure for Contracts
+							<p className="text-4xl text-white font-regular">
+								EIP-1271 and it&apos;s extension EIP-6492 enable signature validation across all types of accounts.
 							</p>
 							<button
 								type="button"
@@ -43,7 +43,7 @@ export default function Home() {
 								Share with your frens, anon
 							</button>
 							<p className="text-base text-white font-thin italic">
-								Enhancing dApps UX through Account Abstraction wallets
+    						Enhancing dApps UX through Account Abstraction wallets and smarter EOAs (EIP-7702)
 							</p>
 						</div>
 						<div className="flex flex-col items-end justify-center w-full h-headerHeight">
@@ -74,10 +74,9 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="flex flex-col w-full h-full animate-[slide-down-fade_0.5s_ease-in-out] md:grid-cols-2 items-center justify-center px-[2rem] sm:px-[4rem] md:px-[6rem] py-[5vh] z-10">
-					<div className="flex flex-col h-1/5 justify-center align-center pb-[5vh] z-10">
-						<p className="text-8xl text-white text-center">
-							Since this is crucial for account abstraction, we want to
-							encourage more dApps to integrate EIP-1271.
+					<div className="max-w-5xl flex flex-col h-1/5 justify-center align-center pb-[5vh] z-10">
+						<p className="text-6xl text-white text-center">
+    					Since this is crucial for account abstraction, we want to encourage more dApps to integrate EIP-1271 & EIP-6492.
 						</p>
 					</div>
 					<div className="flex grid lg:grid-cols-2 w-full z-10">
@@ -98,7 +97,7 @@ export default function Home() {
 										.filter((x) => x.supportEIP1271 === "Yes")
 										.map((item, i) => {
 											return (
-												<tr>
+												<tr key={item.dappName}>
 													<td
 														scope="row"
 														className={`py-3 font-medium border-x-[1px] lg:border-l-[0px] lg:border-r-[1px] ${
@@ -153,7 +152,7 @@ export default function Home() {
 									{dapps
 										.filter((x) => x.supportEIP1271 === "Yes")
 										.map((_item, i) => (
-											<tr>
+											<tr key={_item.dappName}>
 												<td
 													className={`py-3 font-medium border-x-[1px] lg:border-r-0 lg:border-l-[1px] ${
 														dapps.filter((x) => x.supportEIP1271 === "Yes")
@@ -248,7 +247,7 @@ export default function Home() {
 									{dapps
 										.filter((x) => x.supportEIP1271 === "No")
 										.map((item, i) => (
-											<tr>
+											<tr key={item.dappName}>
 												<td
 													className={`py-3 font-medium border-x-[1px] lg:border-r-0  lg:border-l-[1px] ${
 														dapps.filter((x) => x.supportEIP1271 === "No")
