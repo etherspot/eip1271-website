@@ -7,6 +7,7 @@ import FAQ from "@/components/FAQ";
 import Ellipse from "@/components/Ellipse";
 import dapps from "../static/dapps.json";
 import twitterLogo from "../public/twitterLogo.svg";
+import githubLogo from "../public/github.png";
 import Image from "next/image";
 import twitterPost from "../public/twitter.png";
 import REDIRECT from "helpers/constants";
@@ -24,12 +25,12 @@ export default function Home() {
 					<div className="absolute bg-[url('../public/VectorTop.png')] w-screen h-screen bg-cover opacity-50 top-0" />
 					<div className="absolute bg-[url('../public/VectorBottom.png')] w-screen h-screen right-0 bg-cover opacity-50 top-0" />
 					<div className="flex w-full h-full flex-col-reverse  md:flex-row justify-center items-center ">
-						<div className="flex flex-col w-full h-full sm:h-2/4 justify-between px-[3vh] md:px-[12vh] z-10">
-							<p className="text-10xl sm:text-title md:text-headertitle lg:text-headertitle text-white font-bold">
-								EIP-1271
-							</p>
-							<p className="text-7xl text-white font-regular">
-								Standard Signature Validation <br /> Procedure for Contracts
+						<div className="flex flex-col w-full h-full sm:h-2/4 justify-between px-[3vh] md:pl-[12vh] md:pr-0 max-w-3xl z-10">
+							<h1 className="text-10xl sm:text-title md:text-headertitle text-white leading-tight mb-4 font-bold">
+								Signature Validation for Smart Accounts
+							</h1>
+							<p className="text-4xl text-white font-regular">
+								EIP-1271 and it&apos;s extension EIP-6492 enable signature validation across all types of accounts.
 							</p>
 							<button
 								type="button"
@@ -43,7 +44,7 @@ export default function Home() {
 								Share with your frens, anon
 							</button>
 							<p className="text-base text-white font-thin italic">
-								Enhancing dApps UX through Account Abstraction wallets
+    						Enhancing dApps UX through Account Abstraction wallets and smarter EOAs (EIP-7702)
 							</p>
 						</div>
 						<div className="flex flex-col items-end justify-center w-full h-headerHeight">
@@ -74,10 +75,9 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="flex flex-col w-full h-full animate-[slide-down-fade_0.5s_ease-in-out] md:grid-cols-2 items-center justify-center px-[2rem] sm:px-[4rem] md:px-[6rem] py-[5vh] z-10">
-					<div className="flex flex-col h-1/5 justify-center align-center pb-[5vh] z-10">
-						<p className="text-8xl text-white text-center">
-							Since this is crucial for account abstraction, we want to
-							encourage more dApps to integrate EIP-1271.
+					<div className="max-w-5xl flex flex-col h-1/5 justify-center align-center pb-[5vh] z-10">
+						<p className="text-6xl text-white text-center">
+    					Since this is crucial for account abstraction, we want to encourage more dApps to integrate EIP-1271 & EIP-6492.
 						</p>
 					</div>
 					<div className="flex grid lg:grid-cols-2 w-full z-10">
@@ -98,7 +98,7 @@ export default function Home() {
 										.filter((x) => x.supportEIP1271 === "Yes")
 										.map((item, i) => {
 											return (
-												<tr>
+												<tr key={item.dappName}>
 													<td
 														scope="row"
 														className={`py-3 font-medium border-x-[1px] lg:border-l-[0px] lg:border-r-[1px] ${
@@ -153,7 +153,7 @@ export default function Home() {
 									{dapps
 										.filter((x) => x.supportEIP1271 === "Yes")
 										.map((_item, i) => (
-											<tr>
+											<tr key={_item.dappName}>
 												<td
 													className={`py-3 font-medium border-x-[1px] lg:border-r-0 lg:border-l-[1px] ${
 														dapps.filter((x) => x.supportEIP1271 === "Yes")
@@ -248,7 +248,7 @@ export default function Home() {
 									{dapps
 										.filter((x) => x.supportEIP1271 === "No")
 										.map((item, i) => (
-											<tr>
+											<tr key={item.dappName}>
 												<td
 													className={`py-3 font-medium border-x-[1px] lg:border-r-0  lg:border-l-[1px] ${
 														dapps.filter((x) => x.supportEIP1271 === "No")
@@ -326,7 +326,7 @@ export default function Home() {
 						<TopLeftRounded className="justify-center" />
 					</div>
 					<div className="flex flex-col justify-center align-center h-full">
-						<p className="text-title text-white	font-bold">How to implement EIP-1271?</p>
+						<h2 className="text-title text-white	font-bold">How to implement EIP-1271?</h2>
 						<p className="text-lg text-white leading-9 py-4">						<br />
 						There are npm packages that makes it easy for a dApps to add support for EIP 1271
 						<br />
@@ -353,7 +353,7 @@ export default function Home() {
 
 				<div className="flex flex-col w-full items-center h-full animate-[slide-down-fade_0.5s_ease-in-out] md:grid-cols-2 items-start px-[2rem] sm:px-[4rem] md:px-[6rem] z-10">
 					<div className="flex flex-col justify-center  h-full">
-						<p className="text-title text-white font-bold">FAQ</p>
+						<h2 className="text-title text-white font-bold">FAQ</h2>
 					</div>
 					<div className="w-full h-full py-12 z-10">
 						<FAQ />
@@ -365,9 +365,9 @@ export default function Home() {
 					</div>
 					<div className="flex flex-col justify-center items-center h-full">
 						<div className="flex flex-col justify-between h-3/5">
-							<p className="text-title text-white	font-bold">
+							<h2 className="text-title text-white	font-bold">
 								Have a Question ?
-							</p>
+							</h2>
 							{/* rome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 							<p
 								className="text-lg text-white underline cursor-pointer"
@@ -403,7 +403,10 @@ export default function Home() {
 								>
 									hello@eip1271.io
 								</p>
-								<p className="text-lg text-white">eip1271.eth</p>
+								<p className="text-lg text-white mb-2">eip1271.eth</p>
+								<a href={REDIRECT.SUBMIT_PROJECT} target="_blank" rel="noreferrer noopener">
+									<Image src={githubLogo} alt="" className="w-6 h-6" />
+								</a>
 							</div>
 						</div>
 					</div>
