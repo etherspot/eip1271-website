@@ -7,6 +7,7 @@ import FAQ from "@/components/FAQ";
 import Ellipse from "@/components/Ellipse";
 import dapps from "../static/dapps.json";
 import twitterLogo from "../public/twitterLogo.svg";
+import githubLogo from "../public/github.png";
 import Image from "next/image";
 import twitterPost from "../public/twitter.png";
 import REDIRECT from "helpers/constants";
@@ -402,7 +403,10 @@ export default function Home() {
 								>
 									hello@eip1271.io
 								</p>
-								<p className="text-lg text-white">eip1271.eth</p>
+								<p className="text-lg text-white mb-2">eip1271.eth</p>
+								<a href={REDIRECT.SUBMIT_PROJECT} target="_blank" rel="noreferrer noopener">
+									<Image src={githubLogo} alt="" className="w-6 h-6" />
+								</a>
 							</div>
 						</div>
 					</div>
